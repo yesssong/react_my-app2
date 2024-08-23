@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 
 const Ex2 = () => {
+  // 전역변수
+  // useState : 변수값이 바뀔 때 마다 화면에 반영하기 위해 사용
   const [vo, setVo] = useState({
     name: "",
     email: "",
@@ -22,6 +24,7 @@ const Ex2 = () => {
 
   return (
     <div>
+      <p>이벤트 통합</p>
       <div>
         <label>이름</label>
         <input type="text" id="name" value={vo.name} onChange={setValue} />

@@ -1,0 +1,28 @@
+.m_list {
+  list-style: none;
+}
+.m_list li {
+  display: inline-block;
+  width: 150px;
+  /* background-color: black; */
+
+  color: navy;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  text-shadow: 1px 1px 1px #eee;
+}
+.m_list li:hover {
+  color: skyblue;
+}
+
+.table {
+  width: 400px;
+  margin: 10px auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+.table td,
+.table th {
+  border: 1px solid black;
+}
